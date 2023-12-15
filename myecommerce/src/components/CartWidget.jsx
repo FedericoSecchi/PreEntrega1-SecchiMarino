@@ -11,4 +11,14 @@ const CartWidget = () => {
   );
 };
 
-export default CartWidget;
+
+const NavBar = () => {
+  return (
+    <nav>
+      {/* ... Otros elementos de la barra de navegación */}
+      <CartWidget />
+    </nav>
+  );
+};
+
+export default NavBar;

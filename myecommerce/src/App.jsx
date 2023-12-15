@@ -1,9 +1,11 @@
+// src/components/App.jsx
 import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
-import './App.css';
-import NavBar from './NavBar'; // Ajusta la ruta para reflejar la ubicación correcta
-import ItemListContainer from './ItemListContainer';
+import NavBar from "./components/NavBar";
+import ItemListContainer from "./components/ItemListContainer";
+import Main from './main';
+
 function App() {
   const [count, setCount] = useState(0);
 
@@ -24,7 +26,7 @@ function App() {
           count is {count}
         </button>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          Edit <code>src/components/App.jsx</code> and save to test HMR
         </p>
       </div>
       <p className="read-the-docs">
@@ -32,6 +34,7 @@ function App() {
       </p>
       <NavBar />
       <ItemListContainer greeting="¡Bienvenido a nuestra tienda en línea!" />
+      <Main />
     </>
   );
 }

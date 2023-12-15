@@ -16,7 +16,7 @@ const NavBar = () => {
             <li className="nav-item">
               <a className="nav-link" href="#">Categoría 2</a>
             </li>
-            {/* Agrega más categorías según sea necesario */}
+            {/* Agrega más categorías*/}
           </ul>
         </div>
         
